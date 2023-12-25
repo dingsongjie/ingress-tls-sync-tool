@@ -1,0 +1,17 @@
+{
+    "nginxReloadCmd": "",
+    "nginxTestCmd": "",
+    "triggerIntervalHours": 24,
+    "certs": [
+        {
+            "secretNamespace": "pt-api",
+            "secretName": "api-tls",
+            "certPath": "./api-tls"
+        },
+        {
+            "secretNamespace": "pt-api",
+            "secretName": "identity-server-tls",
+            "certPath": "./identity-server-tls"
+        }
+    ]
+}
