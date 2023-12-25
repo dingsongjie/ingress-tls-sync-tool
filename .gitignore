@@ -23,4 +23,5 @@ cmd/api-tls.crt
 cmd/api-tls.key
 cmd/identity-server-tls.crt
 cmd/identity-server-tls.key
+build/cmd
 .kube/config
